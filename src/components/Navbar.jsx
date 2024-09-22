@@ -1,11 +1,11 @@
 import React from "react";
 import logo1 from '../assets/logo1.svg'
 import { IoMenuOutline } from "react-icons/io5";
-import Dropdown from "./Dropdown";
+// import Dropdown from "./Dropdown";
 
 const Navbar = () => {
   return <div>
-    <div className=" z-20 fixed w-screen shadow-md flex align-middle justify-center ">
+    <div className=" w-full z-50 shadow-md flex align-middle justify-center ">
     <div className=" w-[85%] p-2 flex items-center justify-between">
 
         <div className=" flex items-center gap-2 mr-2">
