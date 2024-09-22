@@ -2,10 +2,11 @@ import React from "react";
 import { FaCheck } from "react-icons/fa6";
 import { FaRegCirclePlay } from "react-icons/fa6";
 import background1 from '../assets/background1.svg'
+import hero from '../assets/hero.jpg';
 
 const Hero = () => {
   return <div className="">
-    <div className="flex flex-wrap mt-20 ml-10 px-10 py-6 items-center justify-between ">
+    <div className="flex md:flex-nowrap flex-wrap gap-5 mt-20 ml-10 px-10 py-6 items-center justify-between ">
       <div className=" grid gap-10">
         <h1 className=" text-6xl font-medium">Create and sell<span className="block">custom products</span></h1>
         <div className="grid gap-2 font-medium">
@@ -21,8 +22,9 @@ const Hero = () => {
         <h3 className=" text-green-500 font-medium">Trused by over 8M sellers around the world</h3>
         </div>
       </div>
-     <div className=" w-[60%] mr-8 ">
-      <img src={background1} className=" text-gray-800 " alt="" />
+     <div className=" w-[60%] mr-8  ">
+      {/* <img src={background1} className=" text-gray-800 " alt="" /> */}
+      <img src={hero} className="  top-1 right-8 w-[65%] " alt="" />
      </div>
     </div>
   </div>;

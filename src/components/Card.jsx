@@ -1,9 +1,10 @@
 import React from "react";
+import proimg from '../assets/proimg.jpg';
 
 const Card = () => {
   return <div>
     <div className="">
-        <div className="bg-[#203741] rounded-2xl flex m-auto w-[70%] h-[80vh] p-8 text-white my-16 ">
+        <div className="bg-[#203741] relative rounded-2xl flex m-auto w-[70%] h-[80vh] p-8 text-white my-16 ">
             <div className=" grid ">
                 <h1 className=" font-bold text-4xl">Make Money, <span className=" block">Risk-Free</span></h1>
                 <h2>You pay for fulfillment only when you make a sale</h2>
@@ -15,8 +16,8 @@ const Card = () => {
                 </div>
                 <button className=" bg-green-500 px-4 w-[150px] rounded-lg">Start selling</button>
                 <p className=" mt-6">100% Free to use  · 900+ Products  · Largest print network</p>
-            </div>
-
+            </div >
+           <img className=" absolute rounded-lg -right-2 bottom-0 hidden md:block w-[30vw]" src={proimg} alt="" />
         </div>
     </div>
   </div>;

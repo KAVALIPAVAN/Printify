@@ -23,40 +23,40 @@ const Connect = () => {
         <img src={backgroundImage} alt="" >
         </img>
         <div className="absolute z-10 shadow-lg w-[60px]  left-[31.9994%] top-[10%]  h-[60px] justify-center  bg-white items-center flex  px-1  rounded-xl ">
-         <img src={esty} alt="" className="w-[90%] " />
+         <img src={esty} alt="" className="w-[95%] " />
         </div>
         <div className="absolute z-10 shadow-lg w-[60px]  left-[ 48.9995%] top-[10.0051%]  h-[60px] justify-center  bg-white items-center flex  px-1  rounded-xl ">
-         <img src={moreintegration} alt="" className="w-[90%] " />
+         <img src={moreintegration} alt="" className="w-[95%] " />
         </div>
-        <div className="absolute z-10 shadow-lg w-[60px]  left-[71.4983%] top-[21.5084%;]  h-[60px] justify-center  bg-white items-center flex  px-1  rounded-xl ">
-         <img src={esty} alt="" className="w-[90%] " />
-        </div>
+        {/* <div className="absolute z-10 shadow-lg w-[60px]  left-[71.4983%] top-[21.5084%;]  h-[60px] justify-center  bg-white items-center flex  px-1  rounded-xl ">
+         <img src={esty} alt="" className="w-[95%] " />
+        </div> */}
         <div className="absolute z-10 shadow-lg w-[60px]  left-[90.9997%] top-[45.0229%]  h-[60px] justify-center  bg-white items-center flex  px-1  rounded-xl ">
-         <img src={presta} alt="" className="w-[90%] " />
+         <img src={presta} alt="" className="w-[95%] " />
         </div>
         <div className="absolute z-10 shadow-lg w-[60px]  left-[9.9989%] top-[69.0324%]  h-[60px] justify-center  bg-white items-center flex  px-1  rounded-xl ">
-         <img src={shopify} alt="" className="w-[90%] " />
+         <img src={shopify} alt="" className="w-[95%] " />
         </div>
         <div className="absolute z-10 shadow-lg w-[60px]  left-[37.9983%] top-[70.0355%]  h-[60px] justify-center  bg-white items-center flex  px-1  rounded-xl ">
-         <img src={spencerb} alt="" className="w-[90%] " />
+         <img src={spencerb} alt="" className="w-[95%] " />
         </div>
 
         <div className="absolute z-10 shadow-lg w-[60px]  left-[60.9993%] top-[80.0405%]  h-[60px] justify-center  bg-white items-center flex  px-1  rounded-xl ">
-         <img src={squarespace} alt="" className="w-[90%] " />
+         <img src={squarespace} alt="" className="w-[95%] " />
         </div>
 
         <div className="absolute z-10 shadow-lg w-[60px]  left-[89.9992%] top-[84.0402%]  h-[60px] justify-center  bg-white items-center flex  px-1  rounded-xl ">
-         <img src={wix} alt="" className="w-[90%] " />
+         <img src={wix} alt="" className="w-[95%] " />
         </div>
 
         <div className="absolute z-10 shadow-lg w-[60px]  left-[48.9995%] top-[10.0051%]  h-[60px] justify-center  bg-white items-center flex  px-1  rounded-xl ">
-         <img src={woo} alt="" className="w-[90%] " />
+         <img src={woo} alt="" className="w-[95%] " />
         </div>
         <div className="absolute z-10 shadow-lg w-[80px]  left-[50%] top-[33%]  h-[80px] justify-center  bg-white items-center flex  px-1  rounded-xl ">
          <img src={printify} alt="" className="w-[50%] " />
         </div>
         <div className="absolute z-10 shadow-lg w-[80px]  left-[20%] top-[44%]  h-[80px] justify-center  bg-white items-center flex  px-1  rounded-xl ">
-         <img src={bigcommerce} alt="" className="w-[50%] " />
+         <img src={bigcommerce} alt="" className="w-[95%] " />
         </div>
         </div>
         

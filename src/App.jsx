@@ -7,19 +7,20 @@ import Create from "./components/Create";
 import Connect from "./components/Connect";
 import Trusted from "./components/Trusted";
 import Card from "./components/Card";
-
+import Footer from "./components/Footer";
 
 const App = () => {
   return <div className="">
-    <div className="flex flex-col">
-    <Navbar className=''/>
+    <div className="flex flex-col relative">
+    <Navbar />
     <Hero/>
     <Subpart/>
-    {/* <Mid/> */}
+    <Mid/>
     <Create/>
     <Connect/>
     <Trusted/>
     <Card/>
+    <Footer/>
     </div>
   </div>;
 };
